@@ -4,7 +4,7 @@ from pydantic import BaseModel
 app = FastAPI()
 
 
-@app.get("/sudhanshu/kumar/xyz")
+@app.get("/amarendra/kumar/xyz")
 def add(a:int,b:int):
     return a+b
 
